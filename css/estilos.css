@@ -18,7 +18,7 @@ body {
    Header e Navegação
    ========================== */
 header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #50da89 0%,#31b95f 100%);
     color: white;
     padding: 1rem 0;
     position: fixed;
@@ -72,56 +72,9 @@ nav a {
 }
 
 
-/* ==========================
-   Hero Section - Index
-   ========================== */
-.hero {
-    background: linear-gradient(rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8)),
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23f0f0f0" width="1200" height="600"/></svg>');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    margin-top: 70px;
-}
 
 
-.hero-page {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    padding: 8rem 2rem 4rem;
-    text-align: center;
-    color: white;
-    margin-top: 70px;
-}
-
-
-.hero-content, .signup-section {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-    animation: fadeInUp 1s ease-out;
-}
-
-
-.hero h1,
-.hero-page h1 {
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-}
-
-
-.hero p,
-.hero-page p {
-    font-size: 1.3rem;
-    margin-bottom: 2rem;
-}
-
-
+/*BOTOES*/
 
 .cta-buttons {
     display: flex;
